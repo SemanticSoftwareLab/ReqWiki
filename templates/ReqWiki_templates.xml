@@ -1,0 +1,2462 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
+  <siteinfo>
+    <sitename>DemoWiki</sitename>
+    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <generator>MediaWiki 1.16.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">DemoWiki</namespace>
+      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Form:FormActor</title>
+    <id>137</id>
+    <revision>
+      <id>405</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormActor&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormActor}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Actor}}}
+{| class=&quot;formtable&quot;
+! Description:
+| {{{field|ActorDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! StakeHolder:
+| {{{field|StakeHolder|input type=combobox|values from category=StakeHolder}}}
+|}
+{{{end template}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormAssumption</title>
+    <id>138</id>
+    <revision>
+      <id>407</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormAssumption&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormAssumption}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Assumption}}}
+{| class=&quot;formtable&quot;
+! AssumptionDescription:
+| {{{field|AssumptionDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormDependencies</title>
+    <id>139</id>
+    <revision>
+      <id>409</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormDependencies&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormDependencies}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Dependencies}}}
+{| class=&quot;formtable&quot;
+! DependencyDescription:
+| {{{field|DependencyDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Assumptions:
+| {{{field|Assumptions|mandatory|values from category=Assumption|list}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormFeature</title>
+    <id>140</id>
+    <revision>
+      <id>411</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormFeature&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormFeature}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Features}}}
+{| class=&quot;formtable&quot;
+! FeatureDescription:
+| {{{field|FeatureDescription|property=HasDescription|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! Release:
+| {{{field|Release|mandatory}}}
+|-
+! Need:
+| {{{field|Need|mandatory|values from category=Need|list|delimiter=,}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormFunRequirement</title>
+    <id>141</id>
+    <revision>
+      <id>413</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormFunRequirement&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormFunRequirement}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|FunctionalReq}}}
+{| class=&quot;formtable&quot;
+! FunDescription:
+| {{{field|FunDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Features
+| {{{field|Features|mandatory|property=BelongsTo|values from category=Features|list}}}
+|}
+{{{end template}}}
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormGlossary</title>
+    <id>142</id>
+    <revision>
+      <id>415</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormGlossary&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormGlossary}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Glossary}}}
+{| class=&quot;formtable&quot;
+! Definition:
+| {{{field|Definition|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormGoal</title>
+    <id>143</id>
+    <revision>
+      <id>417</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormGoal&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormGoal}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Goal}}}
+{| class=&quot;formtable&quot;
+! Goal Description:
+| {{{field|GoalDesc|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Actor:
+| {{{field|Actor|mandatory|values from category=Actor|list}}}
+|}
+{{{end template}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormNeed</title>
+    <id>144</id>
+    <revision>
+      <id>419</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormNeed&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormNeed}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Need}}}
+{| class=&quot;formtable&quot;
+! NeedDescription:
+| {{{field|NeedDescription|input type=textarea|property=HasDescription|mandatory|rows=10|cols=100}}}
+|-
+! Priority:
+| {{{field|Priority|input type=combobox|mandatory|default=Normal|values=High,Normal,Low}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormNonFun</title>
+    <id>145</id>
+    <revision>
+      <id>421</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormNonFun&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+{{#forminput:form=FormNonFun}}
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|NonFunctionalReq}}}
+{| class=&quot;formtable&quot;
+! Specification Type:
+| {{{field|NonFunType|input type=combobox|mandatory|property=HasNonFunType|values=Security,Maintainability,Accuracy,Usability,Safety,Scalability,Reliability,Interfaces,Regulation Compliance, Technical Compliance,Standards Compliance,Performance,Licensing Requirements,Design Constraint}}}
+|-
+! NonFunDescription:
+| {{{field|NonFunDescription|input type=textarea|mandatory|property=HasDescription}}}
+|-
+! Features
+| {{{field|Features|mandatory|property=BelongsTo|values from category=Features|list}}}
+|}
+{{{end template}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormProblem</title>
+    <id>146</id>
+    <revision>
+      <id>423</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormProblem&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormProblem}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Problem}}}
+{| class=&quot;formtable&quot;
+! Affects:
+| {{{field|Affects|mandatory|values from category=StakeHolder|list}}}
+|-
+! Impact:
+| {{{field|Impact|mandatory|input type=textarea|property=HasImpact|rows=10|cols=100}}}
+|-
+! Successful Solution:
+| {{{field|SuccessfulSolution|mandatory|input type=textarea|property=HasSolution|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormProductPosition</title>
+    <id>147</id>
+    <revision>
+      <id>425</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormProductPosition&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormProductPosition}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|ProductPosition}}}
+{| class=&quot;formtable&quot;
+! Who:
+| {{{field|Who|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! The:
+| {{{field|The|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! That:
+| {{{field|That|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! Unlike:
+| {{{field|unlike|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! OurProduct:
+| {{{field|OurProduct|input type=textarea|mandatory|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormResponsibility</title>
+    <id>148</id>
+    <revision>
+      <id>427</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormResponsibility&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormResponsibility}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Responsibility}}}
+{| class=&quot;formtable&quot;
+! Description:
+| {{{field|Description|property=HasDescription| input type=textarea|rows=10|cols=100|mandatory}}}
+|-
+! StakeHolder:
+| {{{field|StakeHolder|mandatory|values from category=StakeHolder|list}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormStakeHolder</title>
+    <id>149</id>
+    <revision>
+      <id>429</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormStakeHolder&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormStakeHolder}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|StakeHolder}}}
+{| class=&quot;formtable&quot;
+! StakeHolder Description:
+| {{{field|StakeHolderDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormTestCases</title>
+    <id>150</id>
+    <revision>
+      <id>431</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormTestCases&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormTestCases}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|TestCases}}}
+{| class=&quot;formtable&quot;
+! Requirement:
+| {{{field|Req|mandatory|property=HasTestReq|values from category=Requirements|list}}}
+|-
+! Type:
+| {{{field|Type|input type=combobox|mandatory|property=HasTestType|values=Sanity, Sanity Plus, Acceptance, Certification, Regular}}}
+|-
+! Settings:
+| {{{field|Settings|input type=textarea|mandatory|property=HasTestSettings|rows=10|cols=100}}}
+|-
+! PreConditions:
+| {{{field|PreConditions|input type=textarea|mandatory|property=HasTestPreConditions|rows=10|cols=100}}}
+|-
+! Description:
+| {{{field|Description|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Results:
+| {{{field|Results|input type=textarea|mandatory|property=HasTestResults|rows=10|cols=100}}}
+|-
+! UseCases:
+| {{{field|UseCases|input type=combobox|mandatory|values from category=UseCase}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormUseCase</title>
+    <id>151</id>
+    <revision>
+      <id>433</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormUseCase&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormUseCase}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|UseCase}}}
+{| class=&quot;formtable&quot;
+! Use Case Description:
+| {{{field|Description|input type=textarea|mandatory|property=HasDescriptions|rows=10|cols=100}}}
+|-
+! Level:
+| {{{field|Level|input type=combobox|mandatory|property=HasUseCaseLevel|default=user-goal|values=subfunction}}}
+|-
+! Primary Actor:
+| {{{field|PrimaryActor|mandatory|property=UCActorBelongsTo|values from category=Actor|list}}}
+|-
+! StakeHolders:
+|{{{field|StakeHolders|mandatory|property=UCStakeHolderBelongsTo|values from category=StakeHolder|list}}}
+|-
+! Interests:
+| {{{field|Interests|input type=textarea|property=HasInterests|rows=10|cols=100}}}
+|-
+! PreConditions:
+| {{{field|PreConditions|input type=textarea|property=HasPreConditions|rows=10|cols=100}}}
+|-
+! &lt;b&gt;PostConditions&lt;/b&gt;
+|-
+! SuccessEndCondition:
+| {{{field|SuccessEndCondition|input type=textarea|mandatory|property=HasSuccessEndCondition|rows=10|cols=100}}}
+|-
+! FailureEndCondition:
+| {{{field|FailureEndCondition|input type=textarea|property=HasFailureEndCondition|rows=10|cols=100}}}
+|-
+! MinimalGuarantee:
+| {{{field|MinimalGuarantee|input type=textarea|mandatory|property=HasMinimalGuarantee|rows=10|cols=100}}}
+|-
+! MainSuccessScenario:
+| {{{field|MainSuccessScenario|input type=textarea|property=HasMainSuccessScenario|rows=10|cols=100}}}
+|-
+! Extensions:
+| {{{field|Extensions|input type=textarea|property=HasExtensions|rows=10|cols=100}}}
+|-
+! SpecialRequirements:
+| {{{field|SpecialRequirements|input type=textarea|property=HasSpecialRequirements|rows=10|cols=100}}}
+|-
+! Features:
+| {{{field|Features|mandatory|values from category=Features|list}}}
+|}
+{{{end template}}}
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:BelongsTo</title>
+    <id>96</id>
+    <revision>
+      <id>323</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">Creates a &quot;BelongsTo&quot; relationship between two entities and is of type [[Has type::Page]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasAssumption</title>
+    <id>97</id>
+    <revision>
+      <id>325</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasDependencies</title>
+    <id>98</id>
+    <revision>
+      <id>327</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasDescription</title>
+    <id>99</id>
+    <revision>
+      <id>329</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasExtensions</title>
+    <id>100</id>
+    <revision>
+      <id>331</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasFailureEndCondition</title>
+    <id>101</id>
+    <revision>
+      <id>333</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasFeatures</title>
+    <id>102</id>
+    <revision>
+      <id>335</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasFor</title>
+    <id>103</id>
+    <revision>
+      <id>337</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasImpact</title>
+    <id>104</id>
+    <revision>
+      <id>339</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasInterests</title>
+    <id>105</id>
+    <revision>
+      <id>341</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasMainSuccessScenario</title>
+    <id>106</id>
+    <revision>
+      <id>343</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasMinimalGuarantee</title>
+    <id>107</id>
+    <revision>
+      <id>345</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasNonFunType</title>
+    <id>108</id>
+    <revision>
+      <id>347</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormNonFun]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasOurProduct</title>
+    <id>109</id>
+    <revision>
+      <id>349</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasPreConditions</title>
+    <id>110</id>
+    <revision>
+      <id>351</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasPrimaryActor</title>
+    <id>111</id>
+    <revision>
+      <id>353</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasPriority</title>
+    <id>112</id>
+    <revision>
+      <id>355</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasProjectName</title>
+    <id>113</id>
+    <revision>
+      <id>357</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasRelease</title>
+    <id>114</id>
+    <revision>
+      <id>359</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasResDescription</title>
+    <id>115</id>
+    <revision>
+      <id>361</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormResponsibility]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasSolution</title>
+    <id>116</id>
+    <revision>
+      <id>363</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasSpecialRequirements</title>
+    <id>117</id>
+    <revision>
+      <id>365</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasStakeHolderDescription</title>
+    <id>118</id>
+    <revision>
+      <id>367</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormStakeHolder]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasStakeHolderInterest</title>
+    <id>119</id>
+    <revision>
+      <id>369</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasSuccessEndCondition</title>
+    <id>120</id>
+    <revision>
+      <id>371</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestPreCondition</title>
+    <id>121</id>
+    <revision>
+      <id>373</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestReq</title>
+    <id>122</id>
+    <revision>
+      <id>375</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestResults</title>
+    <id>123</id>
+    <revision>
+      <id>377</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestSettings</title>
+    <id>124</id>
+    <revision>
+      <id>379</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestType</title>
+    <id>125</id>
+    <revision>
+      <id>381</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasThat</title>
+    <id>126</id>
+    <revision>
+      <id>383</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasUnlike</title>
+    <id>127</id>
+    <revision>
+      <id>385</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasUseCaseDescription</title>
+    <id>128</id>
+    <revision>
+      <id>387</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasUseCaseLevel</title>
+    <id>129</id>
+    <revision>
+      <id>389</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasWho</title>
+    <id>130</id>
+    <revision>
+      <id>391</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:TCBelongsTo</title>
+    <id>132</id>
+    <revision>
+      <id>395</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormTestCases]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:UCActorBelongsTo</title>
+    <id>133</id>
+    <revision>
+      <id>397</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:UCStakeHolderBelongsTo</title>
+    <id>134</id>
+    <revision>
+      <id>399</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Actor</title>
+    <id>23</id>
+    <revision>
+      <id>259</id>
+      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Actor&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Actor
+|ActorDescription=
+|StakeHolder=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{ActorDescription|}}}]]
+|-
+! StakeHolder
+| [[BelongsTo::{{{StakeHolder|}}}]]
+|}
+
+[[Category:Actor]]
+&lt;/includeonly&gt;
+&lt;includeonly&gt;[[Category:Actor]]
+&lt;/includeonly&gt;&lt;noinclude&gt;
+&lt;/noinclude&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Assumption</title>
+    <id>24</id>
+    <revision>
+      <id>261</id>
+      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Assumption&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Assumption
+|AssumptionDescription=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{AssumptionDescription|}}}]]
+|}
+
+[[Category:Assumption]]
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Assumption]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Dependencies</title>
+    <id>25</id>
+    <revision>
+      <id>263</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Dependencies&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Dependencies
+|DependencyDescription=
+|Assumptions=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{DependencyDescription|}}}]]
+|-
+! Assumptions
+| {{#arraymap:{{{Assumptions|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Dependencies]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Features</title>
+    <id>26</id>
+    <revision>
+      <id>265</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Features&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Features
+|FeatureDescription=
+|Release=
+|Need=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{FeatureDescription|}}}]]
+|-
+! Planned Release
+| [[HasRelease::{{{Release|}}}]]
+|-
+! Need
+| {{#arraymap:{{{Need|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Features]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FunctionalReq</title>
+    <id>27</id>
+    <revision>
+      <id>267</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FunctionalReq&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{FunctionalReq
+|FunDescription=
+|Features=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{FunDescription|}}}]]
+|-
+! Features
+| {{#arraymap:{{{Features|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:FunctionalityReq]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Glossary</title>
+    <id>28</id>
+    <revision>
+      <id>269</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Glossary&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Glossary
+|Definition=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Definition
+| [[HasDescription::{{{Definition|}}}]]
+|}
+&lt;/includeonly&gt;
+
+
+&lt;includeonly&gt;[[Category:Glossary]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Goal</title>
+    <id>29</id>
+    <revision>
+      <id>271</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Goal&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Goal
+|GoalDesc=
+|Actor=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{GoalDesc|}}}]]
+|-
+! Actor
+| {{#arraymap:{{{Actor|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+&lt;includeonly&gt;[[Category:Goal]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ListType</title>
+    <id>152</id>
+    <revision>
+      <id>435</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">{{#ask: [[hasType::{{{type}}}]]
+|?{{{type}}}={{{type}}} Entities Found
+|format=table
+|headers=plain
+|default=No pages found!
+|mainlabel=Page Name
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Need</title>
+    <id>30</id>
+    <revision>
+      <id>273</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Need&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Need
+|NeedDescription=
+|Priority=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{NeedDescription|}}}]]
+|-
+! Priority
+| [[HasPriority::{{{Priority|}}}]] 
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Need]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:NonFunctionalReq</title>
+    <id>31</id>
+    <revision>
+      <id>275</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;NonFunctionalReq&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{NonFunctionalReq
+|NonFunType=
+|NonFunDescription=
+|Features=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Type
+| [[HasNonFunType::{{{NonFunType|}}}]]
+|-
+! Description
+| [[HasDescription::{{{NonFunDescription|}}}]]
+|-
+! Features
+| {{#arraymap:{{{Features|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:NonFunctionalReq]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Problem</title>
+    <id>32</id>
+    <revision>
+      <id>277</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Problem&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Problem
+|Affects=
+|Impact=
+|SuccessfulSolution=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Affects
+| {{#arraymap:{{{Affects|}}}|,|x|[[BelongsTo::x]]}}
+|-
+! The Impact of which is
+| [[HasImpact::{{{Impact|}}}]]
+|-
+! A successful solution would be
+| [[HasSolution::{{{SuccessfulSolution|}}}]]
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Problem]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ProductPosition</title>
+    <id>33</id>
+    <revision>
+      <id>279</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;ProductPostion&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{ProductPosition
+|Who=
+|The=
+|That=
+|unlike=
+|OurProduct=
+}}
+&lt;/pre&gt;
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Who
+| [[HasWho::{{{Who|}}}]]
+|-
+! The ''Project Name''
+| [[HasProjectName::{{{The|}}}]]
+|-
+! That
+| [[HasThat::{{{That|}}}]]
+|-
+! Unlike
+| [[HasUnlike::{{{unlike|}}}]]
+|-
+! Our Product
+| [[HasOurProduct::{{{OurProduct|}}}]]
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:ProductPosition]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Responsibility</title>
+    <id>34</id>
+    <revision>
+      <id>281</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Responsibility&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Responsibility
+|Description=
+|StakeHolder=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{Description|}}}]]
+|-
+! StakeHolder
+| {{#arraymap:{{{StakeHolder|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Responsibility]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-Block</title>
+    <id>153</id>
+    <revision>
+      <id>437</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;table style=&quot;border: 2px dotted;
+border-color: #545454;
+background-color: #F0F0F0;
+	padding: .5em 1em;
+	float: left;
+	margin-bottom: 2em;
+	color: #000;&quot;&gt;
+&lt;tr&gt;&lt;td&gt;{{{content}}}&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-End</title>
+    <id>154</id>
+    <revision>
+      <id>439</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;{{{serviceName}}} {{{doc}}}&lt;/noinclude&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-Start</title>
+    <id>155</id>
+    <revision>
+      <id>441</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;br&gt;
+'''{{{serviceName}}}''' on {{{doc}}}
+[{{{url}}} (View)]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-TableEnd</title>
+    <id>156</id>
+    <revision>
+      <id>443</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">|}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-TableRow</title>
+    <id>157</id>
+    <revision>
+      <id>445</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">|- valign=&quot;top&quot;
+|[[hasType::{{{type}}}| ]][[{{{type}}}::{{{content}}}| ]]{{{content}}}
+|style=&quot;text-align: center;&quot; | [[Property:{{{type}}}|{{{type}}}]]
+|style=&quot;text-align: center;&quot; | {{{start}}}
+|style=&quot;text-align: center;&quot; | {{{end}}}
+|
+{{{features}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-TableStart</title>
+    <id>158</id>
+    <revision>
+      <id>447</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">{| class=&quot;wikitable&quot; style=&quot;height:50px&quot;
+! Content
+! width=&quot;80&quot; | Type
+! width=&quot;50&quot; style=&quot;text-align: center;&quot;| Start
+! width=&quot;50&quot; style=&quot;text-align: center;&quot;| End
+! Features</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:StakeHolder</title>
+    <id>35</id>
+    <revision>
+      <id>283</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;StakeHolder&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{StakeHolder
+|StakeHolderDescription=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+
+! StakeHolder Description
+| [[HasDescription::{{{StakeHolderDescription|}}}]]
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:StakeHolder]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:TestCases</title>
+    <id>36</id>
+    <revision>
+      <id>285</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;TestCases&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{TestCases
+|Requirement=
+|Type=
+|Settings=
+|PreConditions=
+|Description=
+|Results=
+|UseCases=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Requirements
+| {{#arraymap:{{{Req|}}}|,|x|[[HasTestReq::x]]}}
+|-
+! Type
+| [[HasTestType::{{{Type|}}}]]
+|-
+! Settings
+| [[HasTestSettings::{{{Settings|}}}]]
+|-
+! PreConditions
+| [[HasTestPreCondition::{{{PreConditions|}}}]]
+|-
+! Description
+| [[HasDescription::{{{Description|}}}]]
+|-
+! Results
+| [[HasTestResults::{{{Results|}}}]]
+|-
+! UseCases
+| {{#arraymap:{{{UseCases|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:TestCases]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:UseCase</title>
+    <id>37</id>
+    <revision>
+      <id>287</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;UseCase&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{UseCase
+|Description=
+|Level=
+|Primary Actor=
+|StakeHolders=
+|Interests=
+|PreConditions=
+|SuccessEndCondition=
+|FailureEndCondition=
+|MinimalGuarantee=
+|MainSuccessScenario=
+|Extensions=
+|SpecialRequirements=
+|Features=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{Description|}}}]]
+|-
+! Level
+| [[HasUseCaseLevel::{{{Level|}}}]]
+|-
+! Primary Actor
+| {{#arraymap:{{{PrimaryActor|}}}|,|x|[[UCActorBelongsTo::x]]}} 
+|-
+! StakeHolders
+| {{#arraymap:{{{StakeHolders|}}}|,|x|[[UCStakeHolderBelongsTo::x]]}} 
+|-
+! Interests
+| [[HasInterests::{{{Interests|}}}]]
+|-
+! Pre-Conditions
+| [[HasPreConditions::{{{PreConditions|}}}]]
+|-
+! Success end condition
+| [[HasSuccessEndCondition::{{{SuccessEndCondition|}}}]]
+|-
+! Failure end condition
+| [[HasFailureEndCondition::{{{FailureEndCondition|}}}]]
+|-
+! Minimal Guarantee
+| [[HasMinimalGuarantee::{{{MinimalGuarantee|}}}]]
+|-
+! Main Success Scenario
+| [[HasMainSuccessScenario::{{{MainSuccessScenario|}}}]]
+|-
+! Extensions
+| [[HasExtensions::{{{Extensions|}}}]]
+|-
+! Special Requirements
+| [[HasSpecialRequirements::{{{SpecialRequirements|}}}]]
+|-
+! Features
+| {{#arraymap:{{{Features|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:UseCase]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:UseCaseResult</title>
+    <id>38</id>
+    <revision>
+      <id>289</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">{| class=&quot;wikitable&quot; width=&quot;85%&quot;
+|-
+! width=150 style=&quot;text-align: left;&quot; | Use Case Name
+| {{{1}}}
+|-
+! style=&quot;text-align: left;&quot; | Description
+|{{{2}}}
+|-
+! style=&quot;text-align: left;&quot;  | Level
+| {{{3}}}
+|-
+! style=&quot;text-align: left;&quot;  | Primary Actor
+| {{{4}}}
+|-
+! style=&quot;text-align: left;&quot;  | Stake Holders
+| {{{5}}}
+|-
+! style=&quot;text-align: left;&quot;  | Interests
+| {{{6}}}
+
+|-
+! style=&quot;text-align: left;&quot;  | Pre-Conditions
+| {{{7}}}
+|-
+! style=&quot;text-align: left;&quot;  | Success end condition
+| {{{8}}}
+|-
+! style=&quot;text-align: left;&quot;  | Failure end condition
+| {{{9}}}
+|-
+! style=&quot;text-align: left;&quot;  | Minimal Guarantee
+| {{{10}}}
+|-
+! style=&quot;text-align: left;&quot;  | Main Success Scenario 
+| {{{11}}}
+|-
+! style=&quot;text-align: left;&quot;  | Extensions 
+| {{{12}}}
+|-
+! style=&quot;text-align: left;&quot;  | Special Requirements
+| {{{13}}}
+|-
+! style=&quot;text-align: left;&quot;  | Features
+| {{{14}}} 
+|}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Type:Page</title>
+    <id>135</id>
+    <revision>
+      <id>401</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">Default type for concepts</text>
+    </revision>
+  </page>
+  <page>
+    <title>Type:Text</title>
+    <id>136</id>
+    <revision>
+      <id>403</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">Datatype of text properties, e.g. Descriptions</text>
+    </revision>
+  </page>
+  <page>
+    <title>Supplementary Specification</title>
+    <id>18</id>
+    <revision>
+      <id>449</id>
+      <timestamp>2012-10-16T00:21:43Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <text xml:space="preserve">=Introduction=
+
+==Purpose==
+
+==Scope==
+
+==Definitions, Acronyms and Abbreviations==
+
+==References==
+
+==Overview ==
+
+=Functional Requirement=
+[[Form:FormFunRequirement| Create a functional requirement]]
+&lt;br/&gt;
+
+{{#ask: [[Category:FunctionalityReq]]
+| mainlabel= Functionality Requirement
+| ?HasDescription=  Description
+| ?BelongsTo = Features
+ | format= table
+}} 
+&lt;br/&gt;
+
+=Non-Functional Requirement=
+[[Form:FormNonFun| Create a non-functional requirement]]
+&lt;br/&gt;
+{{#ask: [[Category:NonFunctionalReq]]
+| mainlabel= Non-Functionality Requirement
+| ?HasDescription=  Description
+| ?HasNonFunType = Type
+| ?BelongsTo = Features
+ | format= table
+}}
+
+=Licensing Requirements=
+
+=Legal, Copyright and Other Notices=
+
+=Applicable Standards=
+
+=Test Cases=
+[[Form:FormTestCases| Create a test case]]
+&lt;br/&gt;
+{{#ask: [[Category:TestCases]]
+| mainlabel=TestCase Title
+| ?HasTestReq= Requirement
+| ?HasTestType =Type
+| ?HasTestSettings = Settings
+| ?HasTestPreCondition =Preconditions
+| ?HasDescription = Descriptions
+| ? HasTestResults=Results
+|format= table
+}}
+
+=Traceability Links=
+== User Needs versus Features ==
+{{#ask: [[Category:Features]]
+|?BelongsTo=Need
+|? = Feature
+| mainlabel=-
+| format= table
+}}
+
+==Features versus Use Cases ==
+{{#ask: [[Category:UseCase]]
+|? = UseCases
+|?BelongsTo=Features
+| mainlabel=-
+| format= table
+}}
+
+==Features versus Supplementary Requirements==
+{{#ask: [[Category:FunctionalityReq]]
+|?BelongsTo=Features
+|? = Functional Requirements
+| mainlabel=-
+| format= table
+}}
+
+&lt;br/&gt;
+{{#ask: [[Category:NonFunctionalReq]]
+|?BelongsTo=Features
+|? = Non Functional Requirements
+| mainlabel=-
+| format= table
+}}
+
+&lt;br/&gt;
+{{#ask: [[Category:Requirements]]
+|?BelongsTo=Features
+|? = Supplementary Requirements
+| mainlabel=-
+| format= table
+}}
+
+==Use Cases to Test Cases==
+{{#ask: [[Category:TestCases]]
+|?BelongsTo=UseCase
+|? = TestCases
+| mainlabel=-
+| format= table
+}}
+
+=Glossary=
+[[Form:FormGlossary| Create a new term]]&lt;br/&gt;
+{{#ask: [[Category:Glossary]]
+| mainlabel=Term
+| ?HasDescription= Definition 
+ | format= table
+}} 
+&lt;br/&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>UseCase</title>
+    <id>19</id>
+    <revision>
+      <id>253</id>
+      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">=Actor-Goal List=
+[[Form:FormActor| Create an actor]] &lt;br /&gt;
+[[Form:FormGoal| Create a goal]] &lt;br /&gt;
+
+{{#ask: [[Category:Actor]]
+| mainlabel=Actor
+| ?HasDescription= Description 
+ | format= table
+}} 
+&lt;br /&gt;
+{{#ask: [[Category:Goal]]
+| mainlabel=Goal
+| ?HasDescription= Description 
+| format= table
+}} 
+&lt;br/&gt;
+{{#ask: [[Category:Goal]]
+| ?BelongsTo = Actor
+| ?=Goal
+| mainlabel=- 
+| format= table
+}}
+
+=UseCaseModel=
+[[Form:FormUseCase| Create a use case]]
+{{#ask: [[Category:UseCase]]
+| ?=UseCaseName
+| ?HasDescription = Description
+| ?HasUseCaseLevel = Level
+| ?UCActorBelongsTo = Primary Actor
+| ?UCStakeHolderBelongsTo =  StakeHolder
+| ?HasInterests = Interests   
+| ?HasPreConditions = PreConditions
+| ?HasSuccessEndCondition= SuccessEndCondition
+| ?HasFailureEndCondition=FailureEndCondition
+| ?HasMinimalGuarantee=MinimalGuarantee
+| ?HasMainSuccessScenario=MainSuccessScenario
+| ?HasExtensions=Extensions
+| ?HasSpecialRequirements=SpecialRequirements
+| ?BelongsTo =Features
+| mainlabel=- 
+| format =template
+| template=UseCaseResult
+}}
+
+=Glossary=
+[[Form:FormGlossary| Create a new term]]&lt;br/&gt;
+{{#ask: [[Category:Glossary]]
+| mainlabel=Term
+| ?HasDescription= Definition 
+ | format= table
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Vision</title>
+    <id>20</id>
+    <revision>
+      <id>448</id>
+      <timestamp>2012-10-16T00:18:49Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>/* StakeHolder */</comment>
+      <text xml:space="preserve">=Introduction=
+
+=Positioning=
+
+==Problem Statement==
+[[Form:FormStakeHolder | Create a stakeholder]] &lt;br/&gt;
+[[Form:FormProblem | Create a problem]]
+&lt;br/&gt;
+{{#ask: [[Category:Problem]]
+| mainlabel=The problem of
+|?BelongsTo=StakeHolder
+|?HasImpact=The Impact of Which is 
+|?HasSolution=A Successful Solution would be
+| format= table
+}} 
+&lt;br /&gt;
+
+==Product Position Statement==
+[[Form:FormProductPosition| Create a product position]]
+&lt;br/&gt;
+{{#ask: [[Category:ProductPosition]]
+| mainlabel=For
+|?HasWho=Who
+|?HasProjectName=The [Project Name]
+|?HasThat=That
+|?HasUnlike =Unlike
+|?HasOurProduct =OurProduct
+| format= table
+}} 
+&lt;br /&gt;
+
+=Stakeholder Descriptions=
+==Stakeholder Summary==
+[[Form:FormResponsibility| Create a responsibility]] &lt;br/&gt;
+{{#ask: [[Category:StakeHolder]]
+| mainlabel=StakeHolder
+| ?HasDescription= Description 
+ | format= table
+}} 
+&lt;br /&gt;
+{{#ask: [[Category:Responsibility]]
+| ? =Responsibility
+| ?HasDescription= Description
+| mainlabel=-
+ | format= table
+}}
+&lt;br/&gt;
+{{#ask: [[Category:Responsibility]]
+| ?BelongsTo=StakeHolder
+| ? =Responsibility
+| mainlabel=-
+ | format= table
+}}
+&lt;br /&gt;
+
+==User Environment==
+
+=Product Overview=
+==Product Perspective==
+
+==Assumptions and Dependencies==
+[[Form:FormAssumption| Create an assumption]] &lt;br/&gt;
+[[Form:FormDependencies| Create a dependency]] &lt;br/&gt;
+
+{{#ask: [[Category:Assumption]]
+| mainlabel=Assumption
+| ?HasDescription= Description 
+ | format= table
+}} 
+&lt;br /&gt;
+{{#ask: [[Category:Dependencies]]
+| mainlabel=Dependency
+| ?HasDescription= Description 
+ | format= table
+}}
+&lt;br /&gt;
+
+{{#ask: [[Category:Dependencies]]
+| ?BelongsTo= Assumption 
+| ? = Dependency
+| mainlabel=-
+ | format= table
+}}
+&lt;br /&gt;
+
+==Needs and Features==
+[[Form:FormNeed| Create a need]]&lt;br/&gt;
+[[Form:FormFeature| Create a feature]]&lt;br/&gt;
+{{#ask: [[Category:Need]]
+| mainlabel=Need
+| ?HasDescription= Description
+| ?HasPriority =Priority 
+ | format= table
+}} 
+&lt;br/&gt;
+{{#ask: [[Category:Features]]
+| mainlabel=Feature
+| ?HasDescription= Description
+| ?HasRelease=Release 
+ | format= table
+}} 
+&lt;br/&gt;
+{{#ask: [[Category:Features]]
+|?BelongsTo=Need
+|? = Feature
+| mainlabel=-
+| format= table
+}}
+
+==Alternatives and Competition==
+
+=Other product Requirements=
+
+=Interviews=
+
+=Glossary=
+[[Form:FormGlossary | Create a new term]]&lt;br/&gt;
+{{#ask: [[Category:Glossary]]
+| mainlabel=Term
+| ?HasDescription= Definition 
+ | format= table
+}}</text>
+    </revision>
+  </page>
+</mediawiki>
