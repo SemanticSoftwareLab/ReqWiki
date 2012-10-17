@@ -2459,4 +2459,29 @@ Edit the page to see the template text.
 }}</text>
     </revision>
   </page>
+  <page>
+    <title>MediaWiki:Sidebar</title>
+    <id>22</id>
+    <revision>
+      <id>257</id>
+      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">* navigation
+** mainpage|mainpage-description
+** recentchanges-url|recentchanges
+** SemanticWikiHelp|Help
+* Documents
+** Vision|Vision
+** UseCase|Use Case
+** Supplementary_Specification|Supplementary Specification
+* TOOLBOX
+* LANGUAGES
+* SEARCH</text>
+    </revision>
+  </page>
 </mediawiki>
