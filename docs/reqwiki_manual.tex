@@ -130,7 +130,8 @@
 \newcommand{\argmax}{\mathop{\mathrm{argmax}}}
 \newcommand{\sa}{Semantic Assistants\xspace}
 
-\title{ReqWiki: A Semantic System forCollaborative Software Requirements Engineering\bigskip\\
+\title{ReqWiki: A Semantic System for
+Collaborative Software Requirements Engineering\bigskip\\
 \Large Guide for Users and Developers}
 \author{Ren\'{e} Witte\\
 Bahar Sateli\\
@@ -265,18 +266,18 @@ Relying on the populated ontology, ReqWiki supports the automatic creation of th
 \section{NLP Services}
 The second major component of our ReqWiki system is the idea of semantic NLP \emph{assistants} that support users in developing the requirements specification. Our goal is to offer these analysis capabilities directly within the wiki, to avoid forcing users to switch to a different text analysis application. This is achieved through our Wiki-NLP integration (See Chapter~\ref{chap:develop}) that allows to setup an installation with custom NLP services, e.g., for domain-specific analysis pipelines or custom (company/organization-specific) quality rules. The integration is based on our \sa framework, which can broker any deployed NLP pipeline as a standard web service~[\cite{aswc08}]. Within the current version of ReqWiki, we have made a number of both general and requirements-specific NLP services available to ReqWiki users:
 
-\begin{itemize}
-\item \textbf{Writing Quality Assessment} is a service that integrates the After The Deadline~[\cite{Mudge10}] tool and helps ReqWiki users find spelling and grammatical mistakes and provides suggestions for improvements, where possible.
+\begin{description}
+\item[Writing Quality Assessment] is a service that integrates the After The Deadline~[\cite{Mudge10}] tool and helps ReqWiki users find spelling and grammatical mistakes and provides suggestions for improvements, where possible.
 
-\item \textbf{Readability Metrics} is a service that provides an overall readability score of the content that users have produced, indicating how hard to read their text is for other stakeholders. This service provides the users with an overall readability score of the wiki content. The result score indicates how hard to read and comprehend the artifacts are for other stakeholders.
+\item[Readability Metrics] is a service that provides an overall readability score of the content that users have produced, indicating how hard to read their text is for other stakeholders. This service provides the users with an overall readability score of the wiki content. The result score indicates how hard to read and comprehend the artifacts are for other stakeholders.
 %It also can detect passive voice defects in wiki content.%It also can be used to trace the readability over time~\cite{1294952}.
 
-\item \textbf{Requirements Quality Assurance} is a service developed based on the NASA requirements quality metrics~[\cite{Laplante09}] that detects SRS defects like \emph{Options, Directives} or \emph{Weak Phrases} in a document. By using this service, users have the chance to automatically find these defects in their specifications and correct them, resulting in a higher quality SRS document.
+\item[Requirements Quality Assurance] is a service developed based on the NASA requirements quality metrics~[\cite{Laplante09}] that detects SRS defects like \emph{Options, Directives} or \emph{Weak Phrases} in a document. By using this service, users have the chance to automatically find these defects in their specifications and correct them, resulting in a higher quality SRS document.
 
-\item \textbf{Document Indexer} creates a back-of-the-book style index of the wiki content and stores it in the wiki as a page. This service builds on MuNPEx\footnote{Multi-Lingual Noun Phrase Extractor \url{http://www.semanticsoftware.info/munpex}}, an open-source tool that groups words into noun phrases, to generated an inverted index, with entries automatically linked to wiki pages.  Users can compare the result of this service to the glossary section of the SRS documents to check its completeness.
+\item[Document Indexer] creates a back-of-the-book style index of the wiki content and stores it in the wiki as a page. This service builds on MuNPEx\footnote{Multi-Lingual Noun Phrase Extractor \url{http://www.semanticsoftware.info/munpex}}, an open-source tool that groups words into noun phrases, to generated an inverted index, with entries automatically linked to wiki pages.  Users can compare the result of this service to the glossary section of the SRS documents to check its completeness.
 
-\item \textbf{Information Extractor} automatically extracts named entities, such as persons, organizations or locations, from wiki pages, based on the ANNIE system~[\cite{cun11}]. This service is especially useful in analysing existing domain documents during the requirements analysis phase.
-\end{itemize}
+\item[Information Extractor] automatically extracts named entities, such as persons, organizations or locations, from wiki pages, based on the ANNIE system~[\cite{cun11}]. This service is especially useful in analysing existing domain documents during the requirements analysis phase.
+\end{description}
 
 These NLP pipelines can be executed on the ReqWiki content using the Wiki-NLP user interface shown in Figure~\ref{fig:reqwiki_sa}. Users can ask for this interface by clicking on the ``\sa'' link inside the wiki navigational menu (Figure~\ref{fig:reqwiki_sa} - left). The NLP interface allows users to see ``Available Assistants'' in the \sa server to help them with various NLP analyses. Hovering over each item in the list shows a brief description of what each service does. Once the user selects a service, he can then gather a so-called ``collection'' of wiki pages for analysis using the ``Add'' button.
 
@@ -290,11 +291,11 @@ These NLP pipelines can be executed on the ReqWiki content using the Wiki-NLP us
 \blankline
 Next step is for users to specify where they would like the NLP analysis results be written to. The current options available the ``Target Options'' are:
 
-\begin{itemize}
-\item \emph{``Same Page''}, i.e., the results will be written in the same page as the resource. If the user has multiple pages in the collection, each results will be written into its corresponding source page. The current options for this item are the wiki page's main ``body'', or its associated ``talk''\footnote{In some MediaWiki skins, a talk page is also known as the ``discussion'' page.} section.
-\item \emph{``Another Page''}, i.e., writing the results to a different page in the wiki. If the user has multiple pages in the collection, the results of all the wiki pages will be aggregated into one output and written into the specified wiki page. In order to precisely choose a destination for this option, users have to select a namespace from a list of available namespaces in the wiki and provide a unique page name. If the specified wiki page exists in the wiki, the results will be appended to the end of the page, otherwise a new wiki page will be automatically created.
-\item \emph{``Another Wiki''} i.e., writing the results of the analysis into a different wiki than the source, provided that its engine is supported by the integration. Needless to say, users must provide the integration with (1) the address of the destination wiki, (2) its underlying wiki engine and version, (3) a valid username and password, and (4) a valid page name. Similar to the previous option, the results of the analysis will be aggregated and made persistent in the destination wiki page.
-\end{itemize}
+\begin{description}
+\item [``Same Page''], i.e., the results will be written in the same page as the resource. If the user has multiple pages in the collection, each results will be written into its corresponding source page. The current options for this item are the wiki page's main ``body'', or its associated ``talk''\footnote{In some MediaWiki skins, a talk page is also known as the ``discussion'' page.} section.
+\item[``Another Page''], i.e., writing the results to a different page in the wiki. If the user has multiple pages in the collection, the results of all the wiki pages will be aggregated into one output and written into the specified wiki page. In order to precisely choose a destination for this option, users have to select a namespace from a list of available namespaces in the wiki and provide a unique page name. If the specified wiki page exists in the wiki, the results will be appended to the end of the page, otherwise a new wiki page will be automatically created.
+\item[``Another Wiki''] i.e., writing the results of the analysis into a different wiki than the source, provided that its engine is supported by the integration. Needless to say, users must provide the integration with (1) the address of the destination wiki, (2) its underlying wiki engine and version, (3) a valid username and password, and (4) a valid page name. Similar to the previous option, the results of the analysis will be aggregated and made persistent in the destination wiki page.
+\end{description}
 
 A service execution request can then be made by clicking on the ``Run'' button in the second tab. The ``Console'' tab of the Wiki-NLP interface shows user-friendly logs of the NLP service execution and indicates where the results are written if the execution is successfully done.
 
@@ -360,22 +361,36 @@ After installing the extensions, we need to install ReqWiki customized templates
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\textwidth]{reqwiki_template_import.png}
-\caption{Importing ReqWiki templates to MediaWiki engine}
+\caption{Importing ReqWiki templates into MediaWiki engine}
 \label{fig:wiki_template_import}
 \end{figure}
 
-\begin{comment}
+
 \chapter{Development Notes}
 \label{chap:develop}
+Although the templates in ReqWiki have been designed to conform to the UP methodology, by using the same approach, other software development methodology artifacts can be easily added to the ReqWiki system. Also, since ReqWiki is empowered by an open service-oriented architecture, additional NLP services can be added to ReqWiki with little effort. In this chapter, we describe the system architecture behind the ReqWiki and how new NLP services can be added to the architecture.
 
 \section{System Architecture}
-%~[\cite{wikinlp2012}] 
-%\cite{aswc08}
-TBD
+The text mining capabilities in ReqWiki are provided by a novel integration of NLP within wiki systems. The Wiki-NLP integration~[\cite{wikinlp2012}] is a cohesive architecture that provides a seamless integration of NLP techniques within wiki environments. The ReqWiki architecture, shown in Figure~\ref{fig:wikinlp_arch}, is mainly composed on two components; A server-side component delegates the NLP services requests to the \sa framework -- an open source framework that publishes concrete NLP pipelines as standard web services~[\cite{aswc08}]. And a client-side, light-weight plug-in that needs to be installed on the wiki engine. The communication between the two end points are performed over standard HTTP protocols and is realized through custom JavaScript code that is injected into the user's browser.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.79\textwidth]{wikinlp_arch}
+\caption{Wiki-NLP integration architecture in ReqWiki}
+\label{fig:wikinlp_arch}
+\end{figure}
 
 \section{Adding New NLP Services}
-TBD
-\end{comment}
+By default the ReqWiki NLP services are provided by a pre-defined \sa server configured in its architecture. If you would like to offer additional NLP services within your ReqWiki environment, you have to set up a \sa server with your custom NLP services deployed in it. To do so, please consult the \sa user guide\footnote{\sa, url{http://www.semanticsoftware.info/semantic-assistants}} on how to set up a custom \sa server.
+
+Once the new server is up and running, you can configure your ReqWiki to connect to the your \sa server rather than its default one. You can do so through the NLP interface in the wiki. In the ``Global Settings'' tab, shown in Figure~\ref{fig:wikinlp_settings}, select the ``Custom Server'' option and fill in the host name and port number fields and click ``Add Server''. Then select the ``Pre-defined Servers'' option, choose your new server from the list and click on ``Connect''. The new changes will take effect next time you refresh your browser.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{wikinlp_settings.png}
+\caption{Wiki-NLP integration architecture in ReqWiki}
+\label{fig:wikinlp_settings}
+\end{figure}
 
 \backmatter
 %\appendix
