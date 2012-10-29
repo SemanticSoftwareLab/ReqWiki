@@ -1,7 +1,7 @@
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
   <siteinfo>
-    <sitename>DemoWiki</sitename>
-    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <sitename>ReqWiki-Demo</sitename>
+    <base>http://loompa.cs.concordia.ca/ReqWiki-Demo/index.php5/Main_Page</base>
     <generator>MediaWiki 1.16.1</generator>
     <case>first-letter</case>
     <namespaces>
@@ -11,8 +11,8 @@
       <namespace key="1" case="first-letter">Talk</namespace>
       <namespace key="2" case="first-letter">User</namespace>
       <namespace key="3" case="first-letter">User talk</namespace>
-      <namespace key="4" case="first-letter">DemoWiki</namespace>
-      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="4" case="first-letter">ReqWiki-Demo</namespace>
+      <namespace key="5" case="first-letter">ReqWiki-Demo talk</namespace>
       <namespace key="6" case="first-letter">File</namespace>
       <namespace key="7" case="first-letter">File talk</namespace>
       <namespace key="8" case="first-letter">MediaWiki</namespace>
@@ -35,20 +35,17 @@
   </siteinfo>
   <page>
     <title>MediaWiki:Sidebar</title>
-    <id>22</id>
+    <id>72</id>
     <revision>
-      <id>257</id>
-      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <id>319</id>
+      <timestamp>2012-10-29T22:19:27Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>1 revision</comment>
       <text xml:space="preserve">* navigation
 ** mainpage|mainpage-description
 ** recentchanges-url|recentchanges
-** SemanticWikiHelp|Help
 * Documents
 ** Vision|Vision
 ** UseCase|Use Case
