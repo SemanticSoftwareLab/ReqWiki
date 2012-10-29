@@ -1,0 +1,722 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
+  <siteinfo>
+    <sitename>DemoWiki</sitename>
+    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <generator>MediaWiki 1.16.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">DemoWiki</namespace>
+      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Form:FormActor</title>
+    <id>137</id>
+    <revision>
+      <id>405</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormActor&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormActor}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Actor}}}
+{| class=&quot;formtable&quot;
+! Description:
+| {{{field|ActorDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! StakeHolder:
+| {{{field|StakeHolder|input type=combobox|values from category=StakeHolder}}}
+|}
+{{{end template}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormAssumption</title>
+    <id>138</id>
+    <revision>
+      <id>407</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormAssumption&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormAssumption}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Assumption}}}
+{| class=&quot;formtable&quot;
+! AssumptionDescription:
+| {{{field|AssumptionDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormDependencies</title>
+    <id>139</id>
+    <revision>
+      <id>409</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormDependencies&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormDependencies}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Dependencies}}}
+{| class=&quot;formtable&quot;
+! DependencyDescription:
+| {{{field|DependencyDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Assumptions:
+| {{{field|Assumptions|mandatory|values from category=Assumption|list}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormFeature</title>
+    <id>140</id>
+    <revision>
+      <id>411</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormFeature&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormFeature}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Features}}}
+{| class=&quot;formtable&quot;
+! FeatureDescription:
+| {{{field|FeatureDescription|property=HasDescription|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! Release:
+| {{{field|Release|mandatory}}}
+|-
+! Need:
+| {{{field|Need|mandatory|values from category=Need|list|delimiter=,}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormFunRequirement</title>
+    <id>141</id>
+    <revision>
+      <id>413</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormFunRequirement&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormFunRequirement}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|FunctionalReq}}}
+{| class=&quot;formtable&quot;
+! FunDescription:
+| {{{field|FunDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Features
+| {{{field|Features|mandatory|property=BelongsTo|values from category=Features|list}}}
+|}
+{{{end template}}}
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormGlossary</title>
+    <id>142</id>
+    <revision>
+      <id>415</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormGlossary&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormGlossary}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Glossary}}}
+{| class=&quot;formtable&quot;
+! Definition:
+| {{{field|Definition|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormGoal</title>
+    <id>143</id>
+    <revision>
+      <id>417</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormGoal&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormGoal}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Goal}}}
+{| class=&quot;formtable&quot;
+! Goal Description:
+| {{{field|GoalDesc|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Actor:
+| {{{field|Actor|mandatory|values from category=Actor|list}}}
+|}
+{{{end template}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormNeed</title>
+    <id>144</id>
+    <revision>
+      <id>419</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormNeed&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormNeed}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Need}}}
+{| class=&quot;formtable&quot;
+! NeedDescription:
+| {{{field|NeedDescription|input type=textarea|property=HasDescription|mandatory|rows=10|cols=100}}}
+|-
+! Priority:
+| {{{field|Priority|input type=combobox|mandatory|default=Normal|values=High,Normal,Low}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormNonFun</title>
+    <id>145</id>
+    <revision>
+      <id>421</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormNonFun&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+{{#forminput:form=FormNonFun}}
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|NonFunctionalReq}}}
+{| class=&quot;formtable&quot;
+! Specification Type:
+| {{{field|NonFunType|input type=combobox|mandatory|property=HasNonFunType|values=Security,Maintainability,Accuracy,Usability,Safety,Scalability,Reliability,Interfaces,Regulation Compliance, Technical Compliance,Standards Compliance,Performance,Licensing Requirements,Design Constraint}}}
+|-
+! NonFunDescription:
+| {{{field|NonFunDescription|input type=textarea|mandatory|property=HasDescription}}}
+|-
+! Features
+| {{{field|Features|mandatory|property=BelongsTo|values from category=Features|list}}}
+|}
+{{{end template}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormProblem</title>
+    <id>146</id>
+    <revision>
+      <id>423</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormProblem&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormProblem}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Problem}}}
+{| class=&quot;formtable&quot;
+! Affects:
+| {{{field|Affects|mandatory|values from category=StakeHolder|list}}}
+|-
+! Impact:
+| {{{field|Impact|mandatory|input type=textarea|property=HasImpact|rows=10|cols=100}}}
+|-
+! Successful Solution:
+| {{{field|SuccessfulSolution|mandatory|input type=textarea|property=HasSolution|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormProductPosition</title>
+    <id>147</id>
+    <revision>
+      <id>425</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormProductPosition&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormProductPosition}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|ProductPosition}}}
+{| class=&quot;formtable&quot;
+! Who:
+| {{{field|Who|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! The:
+| {{{field|The|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! That:
+| {{{field|That|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! Unlike:
+| {{{field|unlike|input type=textarea|mandatory|rows=10|cols=100}}}
+|-
+! OurProduct:
+| {{{field|OurProduct|input type=textarea|mandatory|rows=10|cols=100}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormResponsibility</title>
+    <id>148</id>
+    <revision>
+      <id>427</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormResponsibility&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormResponsibility}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|Responsibility}}}
+{| class=&quot;formtable&quot;
+! Description:
+| {{{field|Description|property=HasDescription| input type=textarea|rows=10|cols=100|mandatory}}}
+|-
+! StakeHolder:
+| {{{field|StakeHolder|mandatory|values from category=StakeHolder|list}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormStakeHolder</title>
+    <id>149</id>
+    <revision>
+      <id>429</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormStakeHolder&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormStakeHolder}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|StakeHolder}}}
+{| class=&quot;formtable&quot;
+! StakeHolder Description:
+| {{{field|StakeHolderDescription|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormTestCases</title>
+    <id>150</id>
+    <revision>
+      <id>431</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormTestCases&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormTestCases}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|TestCases}}}
+{| class=&quot;formtable&quot;
+! Requirement:
+| {{{field|Req|mandatory|property=HasTestReq|values from category=Requirements|list}}}
+|-
+! Type:
+| {{{field|Type|input type=combobox|mandatory|property=HasTestType|values=Sanity, Sanity Plus, Acceptance, Certification, Regular}}}
+|-
+! Settings:
+| {{{field|Settings|input type=textarea|mandatory|property=HasTestSettings|rows=10|cols=100}}}
+|-
+! PreConditions:
+| {{{field|PreConditions|input type=textarea|mandatory|property=HasTestPreConditions|rows=10|cols=100}}}
+|-
+! Description:
+| {{{field|Description|input type=textarea|mandatory|property=HasDescription|rows=10|cols=100}}}
+|-
+! Results:
+| {{{field|Results|input type=textarea|mandatory|property=HasTestResults|rows=10|cols=100}}}
+|-
+! UseCases:
+| {{{field|UseCases|input type=combobox|mandatory|values from category=UseCase}}}
+|}
+{{{end template}}}
+
+
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:FormUseCase</title>
+    <id>151</id>
+    <revision>
+      <id>433</id>
+      <timestamp>2012-10-15T22:51:41Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FormUseCase&quot; form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+
+{{#forminput:form=FormUseCase}}
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;div id=&quot;wikiPreview&quot; style=&quot;display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;&quot;&gt;&lt;/div&gt;
+{{{for template|UseCase}}}
+{| class=&quot;formtable&quot;
+! Use Case Description:
+| {{{field|Description|input type=textarea|mandatory|property=HasDescriptions|rows=10|cols=100}}}
+|-
+! Level:
+| {{{field|Level|input type=combobox|mandatory|property=HasUseCaseLevel|default=user-goal|values=subfunction}}}
+|-
+! Primary Actor:
+| {{{field|PrimaryActor|mandatory|property=UCActorBelongsTo|values from category=Actor|list}}}
+|-
+! StakeHolders:
+|{{{field|StakeHolders|mandatory|property=UCStakeHolderBelongsTo|values from category=StakeHolder|list}}}
+|-
+! Interests:
+| {{{field|Interests|input type=textarea|property=HasInterests|rows=10|cols=100}}}
+|-
+! PreConditions:
+| {{{field|PreConditions|input type=textarea|property=HasPreConditions|rows=10|cols=100}}}
+|-
+! &lt;b&gt;PostConditions&lt;/b&gt;
+|-
+! SuccessEndCondition:
+| {{{field|SuccessEndCondition|input type=textarea|mandatory|property=HasSuccessEndCondition|rows=10|cols=100}}}
+|-
+! FailureEndCondition:
+| {{{field|FailureEndCondition|input type=textarea|property=HasFailureEndCondition|rows=10|cols=100}}}
+|-
+! MinimalGuarantee:
+| {{{field|MinimalGuarantee|input type=textarea|mandatory|property=HasMinimalGuarantee|rows=10|cols=100}}}
+|-
+! MainSuccessScenario:
+| {{{field|MainSuccessScenario|input type=textarea|property=HasMainSuccessScenario|rows=10|cols=100}}}
+|-
+! Extensions:
+| {{{field|Extensions|input type=textarea|property=HasExtensions|rows=10|cols=100}}}
+|-
+! SpecialRequirements:
+| {{{field|SpecialRequirements|input type=textarea|property=HasSpecialRequirements|rows=10|cols=100}}}
+|-
+! Features:
+| {{{field|Features|mandatory|values from category=Features|list}}}
+|}
+{{{end template}}}
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,621 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
+  <siteinfo>
+    <sitename>DemoWiki</sitename>
+    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <generator>MediaWiki 1.16.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">DemoWiki</namespace>
+      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Property:BelongsTo</title>
+    <id>96</id>
+    <revision>
+      <id>323</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">Creates a &quot;BelongsTo&quot; relationship between two entities and is of type [[Has type::Page]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasAssumption</title>
+    <id>97</id>
+    <revision>
+      <id>325</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasDependencies</title>
+    <id>98</id>
+    <revision>
+      <id>327</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasDescription</title>
+    <id>99</id>
+    <revision>
+      <id>329</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasExtensions</title>
+    <id>100</id>
+    <revision>
+      <id>331</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasFailureEndCondition</title>
+    <id>101</id>
+    <revision>
+      <id>333</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasFeatures</title>
+    <id>102</id>
+    <revision>
+      <id>335</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasFor</title>
+    <id>103</id>
+    <revision>
+      <id>337</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasImpact</title>
+    <id>104</id>
+    <revision>
+      <id>339</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasInterests</title>
+    <id>105</id>
+    <revision>
+      <id>341</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasMainSuccessScenario</title>
+    <id>106</id>
+    <revision>
+      <id>343</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasMinimalGuarantee</title>
+    <id>107</id>
+    <revision>
+      <id>345</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasNonFunType</title>
+    <id>108</id>
+    <revision>
+      <id>347</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormNonFun]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasOurProduct</title>
+    <id>109</id>
+    <revision>
+      <id>349</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasPreConditions</title>
+    <id>110</id>
+    <revision>
+      <id>351</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasPrimaryActor</title>
+    <id>111</id>
+    <revision>
+      <id>353</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasPriority</title>
+    <id>112</id>
+    <revision>
+      <id>355</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasProjectName</title>
+    <id>113</id>
+    <revision>
+      <id>357</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasRelease</title>
+    <id>114</id>
+    <revision>
+      <id>359</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasResDescription</title>
+    <id>115</id>
+    <revision>
+      <id>361</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormResponsibility]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasSolution</title>
+    <id>116</id>
+    <revision>
+      <id>363</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasSpecialRequirements</title>
+    <id>117</id>
+    <revision>
+      <id>365</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasStakeHolderDescription</title>
+    <id>118</id>
+    <revision>
+      <id>367</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormStakeHolder]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasStakeHolderInterest</title>
+    <id>119</id>
+    <revision>
+      <id>369</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasSuccessEndCondition</title>
+    <id>120</id>
+    <revision>
+      <id>371</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestPreCondition</title>
+    <id>121</id>
+    <revision>
+      <id>373</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestReq</title>
+    <id>122</id>
+    <revision>
+      <id>375</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestResults</title>
+    <id>123</id>
+    <revision>
+      <id>377</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestSettings</title>
+    <id>124</id>
+    <revision>
+      <id>379</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasTestType</title>
+    <id>125</id>
+    <revision>
+      <id>381</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasThat</title>
+    <id>126</id>
+    <revision>
+      <id>383</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasUnlike</title>
+    <id>127</id>
+    <revision>
+      <id>385</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasUseCaseDescription</title>
+    <id>128</id>
+    <revision>
+      <id>387</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasUseCaseLevel</title>
+    <id>129</id>
+    <revision>
+      <id>389</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]]. It links to pages that use the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasWho</title>
+    <id>130</id>
+    <revision>
+      <id>391</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Text]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Modification date</title>
+    <id>131</id>
+    <revision>
+      <id>393</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This property shows the last modification date of each page</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:TCBelongsTo</title>
+    <id>132</id>
+    <revision>
+      <id>395</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormTestCases]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:UCActorBelongsTo</title>
+    <id>133</id>
+    <revision>
+      <id>397</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:UCStakeHolderBelongsTo</title>
+    <id>134</id>
+    <revision>
+      <id>399</id>
+      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormUseCase]].</text>
+    </revision>
+  </page>
+</mediawiki>

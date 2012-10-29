@@ -1,0 +1,829 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
+  <siteinfo>
+    <sitename>DemoWiki</sitename>
+    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <generator>MediaWiki 1.16.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">DemoWiki</namespace>
+      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:Actor</title>
+    <id>23</id>
+    <revision>
+      <id>259</id>
+      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Actor&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Actor
+|ActorDescription=
+|StakeHolder=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{ActorDescription|}}}]]
+|-
+! StakeHolder
+| [[BelongsTo::{{{StakeHolder|}}}]]
+|}
+
+[[Category:Actor]]
+&lt;/includeonly&gt;
+&lt;includeonly&gt;[[Category:Actor]]
+&lt;/includeonly&gt;&lt;noinclude&gt;
+&lt;/noinclude&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Assumption</title>
+    <id>24</id>
+    <revision>
+      <id>261</id>
+      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Assumption&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Assumption
+|AssumptionDescription=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{AssumptionDescription|}}}]]
+|}
+
+[[Category:Assumption]]
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Assumption]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Dependencies</title>
+    <id>25</id>
+    <revision>
+      <id>263</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Dependencies&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Dependencies
+|DependencyDescription=
+|Assumptions=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{DependencyDescription|}}}]]
+|-
+! Assumptions
+| {{#arraymap:{{{Assumptions|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Dependencies]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Features</title>
+    <id>26</id>
+    <revision>
+      <id>265</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Features&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Features
+|FeatureDescription=
+|Release=
+|Need=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{FeatureDescription|}}}]]
+|-
+! Planned Release
+| [[HasRelease::{{{Release|}}}]]
+|-
+! Need
+| {{#arraymap:{{{Need|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Features]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FunctionalReq</title>
+    <id>27</id>
+    <revision>
+      <id>267</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;FunctionalReq&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{FunctionalReq
+|FunDescription=
+|Features=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{FunDescription|}}}]]
+|-
+! Features
+| {{#arraymap:{{{Features|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:FunctionalityReq]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Glossary</title>
+    <id>28</id>
+    <revision>
+      <id>269</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Glossary&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Glossary
+|Definition=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Definition
+| [[HasDescription::{{{Definition|}}}]]
+|}
+&lt;/includeonly&gt;
+
+
+&lt;includeonly&gt;[[Category:Glossary]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Goal</title>
+    <id>29</id>
+    <revision>
+      <id>271</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Goal&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Goal
+|GoalDesc=
+|Actor=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{GoalDesc|}}}]]
+|-
+! Actor
+| {{#arraymap:{{{Actor|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+&lt;includeonly&gt;[[Category:Goal]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ListType</title>
+    <id>152</id>
+    <revision>
+      <id>435</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">{{#ask: [[hasType::{{{type}}}]]
+|?{{{type}}}={{{type}}} Entities Found
+|format=table
+|headers=plain
+|default=No pages found!
+|mainlabel=Page Name
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Need</title>
+    <id>30</id>
+    <revision>
+      <id>273</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Need&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Need
+|NeedDescription=
+|Priority=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{NeedDescription|}}}]]
+|-
+! Priority
+| [[HasPriority::{{{Priority|}}}]] 
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Need]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:NonFunctionalReq</title>
+    <id>31</id>
+    <revision>
+      <id>275</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;NonFunctionalReq&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{NonFunctionalReq
+|NonFunType=
+|NonFunDescription=
+|Features=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Type
+| [[HasNonFunType::{{{NonFunType|}}}]]
+|-
+! Description
+| [[HasDescription::{{{NonFunDescription|}}}]]
+|-
+! Features
+| {{#arraymap:{{{Features|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:NonFunctionalReq]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Problem</title>
+    <id>32</id>
+    <revision>
+      <id>277</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Problem&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Problem
+|Affects=
+|Impact=
+|SuccessfulSolution=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Affects
+| {{#arraymap:{{{Affects|}}}|,|x|[[BelongsTo::x]]}}
+|-
+! The Impact of which is
+| [[HasImpact::{{{Impact|}}}]]
+|-
+! A successful solution would be
+| [[HasSolution::{{{SuccessfulSolution|}}}]]
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Problem]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ProductPosition</title>
+    <id>33</id>
+    <revision>
+      <id>279</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;ProductPostion&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{ProductPosition
+|Who=
+|The=
+|That=
+|unlike=
+|OurProduct=
+}}
+&lt;/pre&gt;
+
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Who
+| [[HasWho::{{{Who|}}}]]
+|-
+! The ''Project Name''
+| [[HasProjectName::{{{The|}}}]]
+|-
+! That
+| [[HasThat::{{{That|}}}]]
+|-
+! Unlike
+| [[HasUnlike::{{{unlike|}}}]]
+|-
+! Our Product
+| [[HasOurProduct::{{{OurProduct|}}}]]
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:ProductPosition]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Responsibility</title>
+    <id>34</id>
+    <revision>
+      <id>281</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;Responsibility&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{Responsibility
+|Description=
+|StakeHolder=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{Description|}}}]]
+|-
+! StakeHolder
+| {{#arraymap:{{{StakeHolder|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:Responsibility]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-Block</title>
+    <id>153</id>
+    <revision>
+      <id>437</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;table style=&quot;border: 2px dotted;
+border-color: #545454;
+background-color: #F0F0F0;
+	padding: .5em 1em;
+	float: left;
+	margin-bottom: 2em;
+	color: #000;&quot;&gt;
+&lt;tr&gt;&lt;td&gt;{{{content}}}&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-End</title>
+    <id>154</id>
+    <revision>
+      <id>439</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;{{{serviceName}}} {{{doc}}}&lt;/noinclude&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-Start</title>
+    <id>155</id>
+    <revision>
+      <id>441</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;br&gt;
+'''{{{serviceName}}}''' on {{{doc}}}
+[{{{url}}} (View)]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-TableEnd</title>
+    <id>156</id>
+    <revision>
+      <id>443</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">|}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:SemAssist-TableRow</title>
+    <id>157</id>
+    <revision>
+      <id>445</id>
+      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">|- valign=&quot;top&quot;
+|[[hasType::{{{type}}}| ]][[{{{type}}}::{{{content}}}| ]]{{{content}}}
+|style=&quot;text-align: center;&quot; | [[Property:{{{type}}}|{{{type}}}]]
+|style=&quot;text-align: center;&quot; | {{{start}}}
+|style=&quot;text-align: center;&quot; | {{{end}}}
+|
+{{{features}}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:StakeHolder</title>
+    <id>35</id>
+    <revision>
+      <id>283</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;StakeHolder&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{StakeHolder
+|StakeHolderDescription=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+
+! StakeHolder Description
+| [[HasDescription::{{{StakeHolderDescription|}}}]]
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:StakeHolder]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:TestCases</title>
+    <id>36</id>
+    <revision>
+      <id>285</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;TestCases&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{TestCases
+|Requirement=
+|Type=
+|Settings=
+|PreConditions=
+|Description=
+|Results=
+|UseCases=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Requirements
+| {{#arraymap:{{{Req|}}}|,|x|[[HasTestReq::x]]}}
+|-
+! Type
+| [[HasTestType::{{{Type|}}}]]
+|-
+! Settings
+| [[HasTestSettings::{{{Settings|}}}]]
+|-
+! PreConditions
+| [[HasTestPreCondition::{{{PreConditions|}}}]]
+|-
+! Description
+| [[HasDescription::{{{Description|}}}]]
+|-
+! Results
+| [[HasTestResults::{{{Results|}}}]]
+|-
+! UseCases
+| {{#arraymap:{{{UseCases|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:TestCases]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:UseCase</title>
+    <id>37</id>
+    <revision>
+      <id>287</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the &quot;UseCase&quot; template.
+It should be called in the following format:
+&lt;pre&gt;
+{{UseCase
+|Description=
+|Level=
+|Primary Actor=
+|StakeHolders=
+|Interests=
+|PreConditions=
+|SuccessEndCondition=
+|FailureEndCondition=
+|MinimalGuarantee=
+|MainSuccessScenario=
+|Extensions=
+|SpecialRequirements=
+|Features=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{| class=&quot;wikitable&quot;
+! Description
+| [[HasDescription::{{{Description|}}}]]
+|-
+! Level
+| [[HasUseCaseLevel::{{{Level|}}}]]
+|-
+! Primary Actor
+| {{#arraymap:{{{PrimaryActor|}}}|,|x|[[UCActorBelongsTo::x]]}} 
+|-
+! StakeHolders
+| {{#arraymap:{{{StakeHolders|}}}|,|x|[[UCStakeHolderBelongsTo::x]]}} 
+|-
+! Interests
+| [[HasInterests::{{{Interests|}}}]]
+|-
+! Pre-Conditions
+| [[HasPreConditions::{{{PreConditions|}}}]]
+|-
+! Success end condition
+| [[HasSuccessEndCondition::{{{SuccessEndCondition|}}}]]
+|-
+! Failure end condition
+| [[HasFailureEndCondition::{{{FailureEndCondition|}}}]]
+|-
+! Minimal Guarantee
+| [[HasMinimalGuarantee::{{{MinimalGuarantee|}}}]]
+|-
+! Main Success Scenario
+| [[HasMainSuccessScenario::{{{MainSuccessScenario|}}}]]
+|-
+! Extensions
+| [[HasExtensions::{{{Extensions|}}}]]
+|-
+! Special Requirements
+| [[HasSpecialRequirements::{{{SpecialRequirements|}}}]]
+|-
+! Features
+| {{#arraymap:{{{Features|}}}|,|x|[[BelongsTo::x]]}}
+|}
+&lt;/includeonly&gt;
+
+&lt;includeonly&gt;[[Category:UseCase]]
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:UseCaseResult</title>
+    <id>38</id>
+    <revision>
+      <id>289</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">{| class=&quot;wikitable&quot; width=&quot;85%&quot;
+|-
+! width=150 style=&quot;text-align: left;&quot; | Use Case Name
+| {{{1}}}
+|-
+! style=&quot;text-align: left;&quot; | Description
+|{{{2}}}
+|-
+! style=&quot;text-align: left;&quot;  | Level
+| {{{3}}}
+|-
+! style=&quot;text-align: left;&quot;  | Primary Actor
+| {{{4}}}
+|-
+! style=&quot;text-align: left;&quot;  | Stake Holders
+| {{{5}}}
+|-
+! style=&quot;text-align: left;&quot;  | Interests
+| {{{6}}}
+
+|-
+! style=&quot;text-align: left;&quot;  | Pre-Conditions
+| {{{7}}}
+|-
+! style=&quot;text-align: left;&quot;  | Success end condition
+| {{{8}}}
+|-
+! style=&quot;text-align: left;&quot;  | Failure end condition
+| {{{9}}}
+|-
+! style=&quot;text-align: left;&quot;  | Minimal Guarantee
+| {{{10}}}
+|-
+! style=&quot;text-align: left;&quot;  | Main Success Scenario 
+| {{{11}}}
+|-
+! style=&quot;text-align: left;&quot;  | Extensions 
+| {{{12}}}
+|-
+! style=&quot;text-align: left;&quot;  | Special Requirements
+| {{{13}}}
+|-
+! style=&quot;text-align: left;&quot;  | Features
+| {{{14}}} 
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

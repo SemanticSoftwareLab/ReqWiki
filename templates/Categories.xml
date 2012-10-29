@@ -1,0 +1,278 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
+  <siteinfo>
+    <sitename>DemoWiki</sitename>
+    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <generator>MediaWiki 1.16.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">DemoWiki</namespace>
+      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Category:Actor</title>
+    <id>39</id>
+    <revision>
+      <id>291</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the Actor category.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Assumption</title>
+    <id>40</id>
+    <revision>
+      <id>293</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This category uses the form [[Has default form::Form:FormAssumption]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Dependencies</title>
+    <id>41</id>
+    <revision>
+      <id>295</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the Dependencies category.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Features</title>
+    <id>42</id>
+    <revision>
+      <id>297</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the Features category.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:FunctionalityReq</title>
+    <id>43</id>
+    <revision>
+      <id>299</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This category uses the form [[Has default form::Form:FormFunRequirement]].
+[[Category:Requirements| ]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Glossary</title>
+    <id>44</id>
+    <revision>
+      <id>301</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the Glossary category.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Goal</title>
+    <id>45</id>
+    <revision>
+      <id>303</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This category uses the form [[Has default form::Form:FormGoal]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Need</title>
+    <id>46</id>
+    <revision>
+      <id>305</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the Need category.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:NonFunctionalReq</title>
+    <id>47</id>
+    <revision>
+      <id>307</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the NonFunctionalReq category.
+[[Category:Requirements]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Problem</title>
+    <id>48</id>
+    <revision>
+      <id>309</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This category uses the form [[Has default form::Form:FormProblem]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:ProductPosition</title>
+    <id>49</id>
+    <revision>
+      <id>311</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the ProductPosition category.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Requirements</title>
+    <id>50</id>
+    <revision>
+      <id>313</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is the Requirements category.</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Responsibility</title>
+    <id>51</id>
+    <revision>
+      <id>315</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a Responsibility Category</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:StakeHolder</title>
+    <id>52</id>
+    <revision>
+      <id>317</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This is a StakeHolder category</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:TestCases</title>
+    <id>53</id>
+    <revision>
+      <id>319</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This category uses the form [[Has default form::FormTestCases]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:UseCase</title>
+    <id>54</id>
+    <revision>
+      <id>321</id>
+      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">This category uses the form [[Has default form::Form:FormUseCase]].</text>
+    </revision>
+  </page>
+</mediawiki>

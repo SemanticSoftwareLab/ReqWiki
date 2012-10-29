@@ -1,0 +1,172 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
+  <siteinfo>
+    <sitename>DemoWiki</sitename>
+    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <generator>MediaWiki 1.16.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">DemoWiki</namespace>
+      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Vision</title>
+    <id>20</id>
+    <revision>
+      <id>448</id>
+      <timestamp>2012-10-16T00:18:49Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>/* StakeHolder */</comment>
+      <text xml:space="preserve">=Introduction=
+
+=Positioning=
+
+==Problem Statement==
+[[Form:FormStakeHolder | Create a stakeholder]] &lt;br/&gt;
+[[Form:FormProblem | Create a problem]]
+&lt;br/&gt;
+{{#ask: [[Category:Problem]]
+| mainlabel=The problem of
+|?BelongsTo=StakeHolder
+|?HasImpact=The Impact of Which is 
+|?HasSolution=A Successful Solution would be
+| format= table
+}} 
+&lt;br /&gt;
+
+==Product Position Statement==
+[[Form:FormProductPosition| Create a product position]]
+&lt;br/&gt;
+{{#ask: [[Category:ProductPosition]]
+| mainlabel=For
+|?HasWho=Who
+|?HasProjectName=The [Project Name]
+|?HasThat=That
+|?HasUnlike =Unlike
+|?HasOurProduct =OurProduct
+| format= table
+}} 
+&lt;br /&gt;
+
+=Stakeholder Descriptions=
+==Stakeholder Summary==
+[[Form:FormResponsibility| Create a responsibility]] &lt;br/&gt;
+{{#ask: [[Category:StakeHolder]]
+| mainlabel=StakeHolder
+| ?HasDescription= Description 
+ | format= table
+}} 
+&lt;br /&gt;
+{{#ask: [[Category:Responsibility]]
+| ? =Responsibility
+| ?HasDescription= Description
+| mainlabel=-
+ | format= table
+}}
+&lt;br/&gt;
+{{#ask: [[Category:Responsibility]]
+| ?BelongsTo=StakeHolder
+| ? =Responsibility
+| mainlabel=-
+ | format= table
+}}
+&lt;br /&gt;
+
+==User Environment==
+
+=Product Overview=
+==Product Perspective==
+
+==Assumptions and Dependencies==
+[[Form:FormAssumption| Create an assumption]] &lt;br/&gt;
+[[Form:FormDependencies| Create a dependency]] &lt;br/&gt;
+
+{{#ask: [[Category:Assumption]]
+| mainlabel=Assumption
+| ?HasDescription= Description 
+ | format= table
+}} 
+&lt;br /&gt;
+{{#ask: [[Category:Dependencies]]
+| mainlabel=Dependency
+| ?HasDescription= Description 
+ | format= table
+}}
+&lt;br /&gt;
+
+{{#ask: [[Category:Dependencies]]
+| ?BelongsTo= Assumption 
+| ? = Dependency
+| mainlabel=-
+ | format= table
+}}
+&lt;br /&gt;
+
+==Needs and Features==
+[[Form:FormNeed| Create a need]]&lt;br/&gt;
+[[Form:FormFeature| Create a feature]]&lt;br/&gt;
+{{#ask: [[Category:Need]]
+| mainlabel=Need
+| ?HasDescription= Description
+| ?HasPriority =Priority 
+ | format= table
+}} 
+&lt;br/&gt;
+{{#ask: [[Category:Features]]
+| mainlabel=Feature
+| ?HasDescription= Description
+| ?HasRelease=Release 
+ | format= table
+}} 
+&lt;br/&gt;
+{{#ask: [[Category:Features]]
+|?BelongsTo=Need
+|? = Feature
+| mainlabel=-
+| format= table
+}}
+
+==Alternatives and Competition==
+
+=Other product Requirements=
+
+=Interviews=
+
+=Glossary=
+[[Form:FormGlossary | Create a new term]]&lt;br/&gt;
+{{#ask: [[Category:Glossary]]
+| mainlabel=Term
+| ?HasDescription= Definition 
+ | format= table
+}}</text>
+    </revision>
+  </page>
+</mediawiki>
