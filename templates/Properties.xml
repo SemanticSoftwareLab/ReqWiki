@@ -1,7 +1,7 @@
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
   <siteinfo>
-    <sitename>DemoWiki</sitename>
-    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <sitename>ReqWiki-Demo</sitename>
+    <base>http://loompa.cs.concordia.ca/ReqWiki-Demo/index.php5/Main_Page</base>
     <generator>MediaWiki 1.16.1</generator>
     <case>first-letter</case>
     <namespaces>
@@ -11,8 +11,8 @@
       <namespace key="1" case="first-letter">Talk</namespace>
       <namespace key="2" case="first-letter">User</namespace>
       <namespace key="3" case="first-letter">User talk</namespace>
-      <namespace key="4" case="first-letter">DemoWiki</namespace>
-      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="4" case="first-letter">ReqWiki-Demo</namespace>
+      <namespace key="5" case="first-letter">ReqWiki-Demo talk</namespace>
       <namespace key="6" case="first-letter">File</namespace>
       <namespace key="7" case="first-letter">File talk</namespace>
       <namespace key="8" case="first-letter">MediaWiki</namespace>
@@ -35,10 +35,10 @@
   </siteinfo>
   <page>
     <title>Property:BelongsTo</title>
-    <id>96</id>
+    <id>116</id>
     <revision>
-      <id>323</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>238</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -50,10 +50,10 @@
   </page>
   <page>
     <title>Property:HasAssumption</title>
-    <id>97</id>
+    <id>117</id>
     <revision>
-      <id>325</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>240</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -65,10 +65,10 @@
   </page>
   <page>
     <title>Property:HasDependencies</title>
-    <id>98</id>
+    <id>118</id>
     <revision>
-      <id>327</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>242</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -80,10 +80,10 @@
   </page>
   <page>
     <title>Property:HasDescription</title>
-    <id>99</id>
+    <id>119</id>
     <revision>
-      <id>329</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>244</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -95,10 +95,10 @@
   </page>
   <page>
     <title>Property:HasExtensions</title>
-    <id>100</id>
+    <id>120</id>
     <revision>
-      <id>331</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>246</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -110,10 +110,10 @@
   </page>
   <page>
     <title>Property:HasFailureEndCondition</title>
-    <id>101</id>
+    <id>121</id>
     <revision>
-      <id>333</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>248</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -125,10 +125,10 @@
   </page>
   <page>
     <title>Property:HasFeatures</title>
-    <id>102</id>
+    <id>122</id>
     <revision>
-      <id>335</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>250</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -140,10 +140,10 @@
   </page>
   <page>
     <title>Property:HasFor</title>
-    <id>103</id>
+    <id>123</id>
     <revision>
-      <id>337</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>252</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -155,10 +155,10 @@
   </page>
   <page>
     <title>Property:HasImpact</title>
-    <id>104</id>
+    <id>124</id>
     <revision>
-      <id>339</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>254</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -170,10 +170,10 @@
   </page>
   <page>
     <title>Property:HasInterests</title>
-    <id>105</id>
+    <id>125</id>
     <revision>
-      <id>341</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>256</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -185,10 +185,10 @@
   </page>
   <page>
     <title>Property:HasMainSuccessScenario</title>
-    <id>106</id>
+    <id>126</id>
     <revision>
-      <id>343</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>258</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -200,10 +200,10 @@
   </page>
   <page>
     <title>Property:HasMinimalGuarantee</title>
-    <id>107</id>
+    <id>127</id>
     <revision>
-      <id>345</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>260</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -215,10 +215,10 @@
   </page>
   <page>
     <title>Property:HasNonFunType</title>
-    <id>108</id>
+    <id>128</id>
     <revision>
-      <id>347</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>262</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -230,10 +230,10 @@
   </page>
   <page>
     <title>Property:HasOurProduct</title>
-    <id>109</id>
+    <id>129</id>
     <revision>
-      <id>349</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>264</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -245,10 +245,10 @@
   </page>
   <page>
     <title>Property:HasPreConditions</title>
-    <id>110</id>
+    <id>130</id>
     <revision>
-      <id>351</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>266</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -260,10 +260,10 @@
   </page>
   <page>
     <title>Property:HasPrimaryActor</title>
-    <id>111</id>
+    <id>131</id>
     <revision>
-      <id>353</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>268</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -275,10 +275,10 @@
   </page>
   <page>
     <title>Property:HasPriority</title>
-    <id>112</id>
+    <id>132</id>
     <revision>
-      <id>355</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>270</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -290,10 +290,10 @@
   </page>
   <page>
     <title>Property:HasProjectName</title>
-    <id>113</id>
+    <id>133</id>
     <revision>
-      <id>357</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>272</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -305,10 +305,10 @@
   </page>
   <page>
     <title>Property:HasRelease</title>
-    <id>114</id>
+    <id>134</id>
     <revision>
-      <id>359</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>274</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -320,10 +320,10 @@
   </page>
   <page>
     <title>Property:HasResDescription</title>
-    <id>115</id>
+    <id>135</id>
     <revision>
-      <id>361</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>276</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -335,10 +335,10 @@
   </page>
   <page>
     <title>Property:HasSolution</title>
-    <id>116</id>
+    <id>136</id>
     <revision>
-      <id>363</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>278</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -350,10 +350,10 @@
   </page>
   <page>
     <title>Property:HasSpecialRequirements</title>
-    <id>117</id>
+    <id>137</id>
     <revision>
-      <id>365</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>280</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -365,10 +365,10 @@
   </page>
   <page>
     <title>Property:HasStakeHolderDescription</title>
-    <id>118</id>
+    <id>138</id>
     <revision>
-      <id>367</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>282</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -380,10 +380,10 @@
   </page>
   <page>
     <title>Property:HasStakeHolderInterest</title>
-    <id>119</id>
+    <id>139</id>
     <revision>
-      <id>369</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>284</id>
+      <timestamp>2012-10-29T21:59:10Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -395,10 +395,10 @@
   </page>
   <page>
     <title>Property:HasSuccessEndCondition</title>
-    <id>120</id>
+    <id>140</id>
     <revision>
-      <id>371</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>286</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -410,10 +410,10 @@
   </page>
   <page>
     <title>Property:HasTestPreCondition</title>
-    <id>121</id>
+    <id>141</id>
     <revision>
-      <id>373</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>288</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -425,10 +425,10 @@
   </page>
   <page>
     <title>Property:HasTestReq</title>
-    <id>122</id>
+    <id>142</id>
     <revision>
-      <id>375</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>290</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -440,10 +440,10 @@
   </page>
   <page>
     <title>Property:HasTestResults</title>
-    <id>123</id>
+    <id>143</id>
     <revision>
-      <id>377</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>292</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -455,10 +455,10 @@
   </page>
   <page>
     <title>Property:HasTestSettings</title>
-    <id>124</id>
+    <id>144</id>
     <revision>
-      <id>379</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>294</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -470,10 +470,10 @@
   </page>
   <page>
     <title>Property:HasTestType</title>
-    <id>125</id>
+    <id>145</id>
     <revision>
-      <id>381</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>296</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -485,10 +485,10 @@
   </page>
   <page>
     <title>Property:HasThat</title>
-    <id>126</id>
+    <id>146</id>
     <revision>
-      <id>383</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>298</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -500,10 +500,10 @@
   </page>
   <page>
     <title>Property:HasUnlike</title>
-    <id>127</id>
+    <id>147</id>
     <revision>
-      <id>385</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>300</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -515,10 +515,10 @@
   </page>
   <page>
     <title>Property:HasUseCaseDescription</title>
-    <id>128</id>
+    <id>148</id>
     <revision>
-      <id>387</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>302</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -530,10 +530,10 @@
   </page>
   <page>
     <title>Property:HasUseCaseLevel</title>
-    <id>129</id>
+    <id>149</id>
     <revision>
-      <id>389</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>304</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -545,10 +545,10 @@
   </page>
   <page>
     <title>Property:HasWho</title>
-    <id>130</id>
+    <id>150</id>
     <revision>
-      <id>391</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>306</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -560,10 +560,10 @@
   </page>
   <page>
     <title>Property:Modification date</title>
-    <id>131</id>
+    <id>151</id>
     <revision>
-      <id>393</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>308</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -575,10 +575,10 @@
   </page>
   <page>
     <title>Property:TCBelongsTo</title>
-    <id>132</id>
+    <id>152</id>
     <revision>
-      <id>395</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>310</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -590,10 +590,10 @@
   </page>
   <page>
     <title>Property:UCActorBelongsTo</title>
-    <id>133</id>
+    <id>153</id>
     <revision>
-      <id>397</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>312</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -605,16 +605,31 @@
   </page>
   <page>
     <title>Property:UCStakeHolderBelongsTo</title>
-    <id>134</id>
+    <id>154</id>
     <revision>
-      <id>399</id>
-      <timestamp>2012-10-15T22:51:40Z</timestamp>
+      <id>314</id>
+      <timestamp>2012-10-29T21:59:11Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
       </contributor>
       <minor/>
       <comment>1 revision</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormUseCase]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:HasSecondaryActor</title>
+    <id>115</id>
+    <revision>
+      <id>233</id>
+      <timestamp>2012-10-29T21:46:54Z</timestamp>
+      <contributor>
+        <username>Wikisysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision: Amending the UseCase form</comment>
       <text xml:space="preserve">This is a property of type [[Has type::Page]]. It links to pages that use the form [[Has default form::FormUseCase]].</text>
     </revision>
   </page>

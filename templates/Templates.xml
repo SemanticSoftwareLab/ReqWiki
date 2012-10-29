@@ -1,7 +1,7 @@
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.4/ http://www.mediawiki.org/xml/export-0.4.xsd" version="0.4" xml:lang="en">
   <siteinfo>
-    <sitename>DemoWiki</sitename>
-    <base>http://loompa.cs.concordia.ca/wiki/index.php5/Main_Page</base>
+    <sitename>ReqWiki-Demo</sitename>
+    <base>http://loompa.cs.concordia.ca/ReqWiki-Demo/index.php5/Main_Page</base>
     <generator>MediaWiki 1.16.1</generator>
     <case>first-letter</case>
     <namespaces>
@@ -11,8 +11,8 @@
       <namespace key="1" case="first-letter">Talk</namespace>
       <namespace key="2" case="first-letter">User</namespace>
       <namespace key="3" case="first-letter">User talk</namespace>
-      <namespace key="4" case="first-letter">DemoWiki</namespace>
-      <namespace key="5" case="first-letter">DemoWiki talk</namespace>
+      <namespace key="4" case="first-letter">ReqWiki-Demo</namespace>
+      <namespace key="5" case="first-letter">ReqWiki-Demo talk</namespace>
       <namespace key="6" case="first-letter">File</namespace>
       <namespace key="7" case="first-letter">File talk</namespace>
       <namespace key="8" case="first-letter">MediaWiki</namespace>
@@ -35,10 +35,10 @@
   </siteinfo>
   <page>
     <title>Template:Actor</title>
-    <id>23</id>
+    <id>74</id>
     <revision>
-      <id>259</id>
-      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <id>147</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -73,10 +73,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:Assumption</title>
-    <id>24</id>
+    <id>75</id>
     <revision>
-      <id>261</id>
-      <timestamp>2012-10-15T22:51:38Z</timestamp>
+      <id>149</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -107,10 +107,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:Dependencies</title>
-    <id>25</id>
+    <id>76</id>
     <revision>
-      <id>263</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>151</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -143,10 +143,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:Features</title>
-    <id>26</id>
+    <id>77</id>
     <revision>
-      <id>265</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>153</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -183,10 +183,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:FunctionalReq</title>
-    <id>27</id>
+    <id>78</id>
     <revision>
-      <id>267</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>155</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -219,10 +219,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:Glossary</title>
-    <id>28</id>
+    <id>79</id>
     <revision>
-      <id>269</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>157</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -252,10 +252,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:Goal</title>
-    <id>29</id>
+    <id>80</id>
     <revision>
-      <id>271</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>159</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -287,10 +287,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:ListType</title>
-    <id>152</id>
+    <id>81</id>
     <revision>
-      <id>435</id>
-      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <id>161</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -308,10 +308,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:Need</title>
-    <id>30</id>
+    <id>82</id>
     <revision>
-      <id>273</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>163</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -344,10 +344,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:NonFunctionalReq</title>
-    <id>31</id>
+    <id>83</id>
     <revision>
-      <id>275</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>165</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -384,10 +384,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:Problem</title>
-    <id>32</id>
+    <id>84</id>
     <revision>
-      <id>277</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>167</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -424,10 +424,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:ProductPosition</title>
-    <id>33</id>
+    <id>85</id>
     <revision>
-      <id>279</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>169</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -472,10 +472,10 @@ It should be called in the following format:
   </page>
   <page>
     <title>Template:Responsibility</title>
-    <id>34</id>
+    <id>86</id>
     <revision>
-      <id>281</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>171</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -508,10 +508,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:SemAssist-Block</title>
-    <id>153</id>
+    <id>87</id>
     <revision>
-      <id>437</id>
-      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <id>173</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -532,10 +532,10 @@ background-color: #F0F0F0;
   </page>
   <page>
     <title>Template:SemAssist-End</title>
-    <id>154</id>
+    <id>88</id>
     <revision>
-      <id>439</id>
-      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <id>175</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -547,10 +547,10 @@ background-color: #F0F0F0;
   </page>
   <page>
     <title>Template:SemAssist-Start</title>
-    <id>155</id>
+    <id>89</id>
     <revision>
-      <id>441</id>
-      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <id>177</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -564,10 +564,10 @@ background-color: #F0F0F0;
   </page>
   <page>
     <title>Template:SemAssist-TableEnd</title>
-    <id>156</id>
+    <id>90</id>
     <revision>
-      <id>443</id>
-      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <id>179</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -579,10 +579,10 @@ background-color: #F0F0F0;
   </page>
   <page>
     <title>Template:SemAssist-TableRow</title>
-    <id>157</id>
+    <id>91</id>
     <revision>
-      <id>445</id>
-      <timestamp>2012-10-15T22:58:00Z</timestamp>
+      <id>181</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -600,10 +600,10 @@ background-color: #F0F0F0;
   </page>
   <page>
     <title>Template:StakeHolder</title>
-    <id>35</id>
+    <id>92</id>
     <revision>
-      <id>283</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>183</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -633,10 +633,10 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:TestCases</title>
-    <id>36</id>
+    <id>93</id>
     <revision>
-      <id>285</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>185</id>
+      <timestamp>2012-10-29T19:27:52Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
@@ -689,16 +689,16 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:UseCase</title>
-    <id>37</id>
+    <id>94</id>
     <revision>
-      <id>287</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>235</id>
+      <timestamp>2012-10-29T21:46:54Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <comment>1 revision</comment>
+      <comment>1 revision: Amending the UseCase form</comment>
       <text xml:space="preserve">&lt;noinclude&gt;
 This is the &quot;UseCase&quot; template.
 It should be called in the following format:
@@ -707,6 +707,7 @@ It should be called in the following format:
 |Description=
 |Level=
 |Primary Actor=
+|Secondary Actor=
 |StakeHolders=
 |Interests=
 |PreConditions=
@@ -730,6 +731,9 @@ Edit the page to see the template text.
 |-
 ! Primary Actor
 | {{#arraymap:{{{PrimaryActor|}}}|,|x|[[UCActorBelongsTo::x]]}} 
+|-
+! Secondary Actor
+| {{#arraymap:{{{SecondaryActor|}}}|,|x|[[HasSecondaryActor::x]]}} 
 |-
 ! StakeHolders
 | {{#arraymap:{{{StakeHolders|}}}|,|x|[[UCStakeHolderBelongsTo::x]]}} 
@@ -769,16 +773,16 @@ Edit the page to see the template text.
   </page>
   <page>
     <title>Template:UseCaseResult</title>
-    <id>38</id>
+    <id>95</id>
     <revision>
-      <id>289</id>
-      <timestamp>2012-10-15T22:51:39Z</timestamp>
+      <id>231</id>
+      <timestamp>2012-10-29T21:46:54Z</timestamp>
       <contributor>
         <username>Wikisysop</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <comment>1 revision</comment>
+      <comment>1 revision: Amending the UseCase form</comment>
       <text xml:space="preserve">{| class=&quot;wikitable&quot; width=&quot;85%&quot;
 |-
 ! width=150 style=&quot;text-align: left;&quot; | Use Case Name
@@ -793,36 +797,39 @@ Edit the page to see the template text.
 ! style=&quot;text-align: left;&quot;  | Primary Actor
 | {{{4}}}
 |-
-! style=&quot;text-align: left;&quot;  | Stake Holders
+! style=&quot;text-align: left;&quot;  | Secondary Actor
 | {{{5}}}
 |-
-! style=&quot;text-align: left;&quot;  | Interests
+! style=&quot;text-align: left;&quot;  | Stake Holders
 | {{{6}}}
+|-
+! style=&quot;text-align: left;&quot;  | Interests
+| {{{7}}}
 
 |-
 ! style=&quot;text-align: left;&quot;  | Pre-Conditions
-| {{{7}}}
-|-
-! style=&quot;text-align: left;&quot;  | Success end condition
 | {{{8}}}
 |-
-! style=&quot;text-align: left;&quot;  | Failure end condition
+! style=&quot;text-align: left;&quot;  | Success end condition
 | {{{9}}}
 |-
-! style=&quot;text-align: left;&quot;  | Minimal Guarantee
+! style=&quot;text-align: left;&quot;  | Failure end condition
 | {{{10}}}
 |-
-! style=&quot;text-align: left;&quot;  | Main Success Scenario 
+! style=&quot;text-align: left;&quot;  | Minimal Guarantee
 | {{{11}}}
 |-
-! style=&quot;text-align: left;&quot;  | Extensions 
+! style=&quot;text-align: left;&quot;  | Main Success Scenario 
 | {{{12}}}
 |-
-! style=&quot;text-align: left;&quot;  | Special Requirements
+! style=&quot;text-align: left;&quot;  | Extensions 
 | {{{13}}}
 |-
+! style=&quot;text-align: left;&quot;  | Special Requirements
+| {{{14}}}
+|-
 ! style=&quot;text-align: left;&quot;  | Features
-| {{{14}}} 
+| {{{15}}} 
 |}</text>
     </revision>
   </page>
